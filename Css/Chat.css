@@ -1,6 +1,7 @@
 * {
     color: white;
     margin: 0;
+    transform: translateZ(0);
 }
 
 html {
