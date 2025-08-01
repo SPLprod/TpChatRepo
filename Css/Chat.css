@@ -1,0 +1,65 @@
+* {
+    color: white;
+    margin: 0;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    width: 45em;
+    height: 45em;
+    margin: 3em auto;
+    font-family: "Shadows Into Light", cursive;
+}
+
+header {
+    text-align: center;
+    margin-top: 3em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+main, header>* {
+    background-color: #29347B;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2.5em;
+    align-content: center;
+}
+
+div {
+    width: 25%;
+    margin: 0 4%;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+}
+
+@media screen and (max-width : 768px) {
+    body {
+        width: 90%;
+        margin: auto;
+    }
+
+    div {
+        width: 15em;
+        margin: 2em;
+    }
+    
+}
